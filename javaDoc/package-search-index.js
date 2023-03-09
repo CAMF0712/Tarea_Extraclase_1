@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"calculadora.te1","l":"calculadora.te1"}];updateSearchResults();
