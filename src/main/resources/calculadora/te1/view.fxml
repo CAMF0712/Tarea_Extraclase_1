@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="case" maxHeight="440.0" maxWidth="460.0" minHeight="440.0" minWidth="460.0" prefHeight="440.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.te1.controller">
+   <children>
+      <Button id="btm_addPer" layoutX="105.0" layoutY="379.0" mnemonicParsing="false" onAction="#addPerson" prefHeight="35.0" prefWidth="109.0" text="+ Persona">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label id="l_result" fx:id="l_result" layoutX="108.0" layoutY="14.0" prefHeight="35.0" prefWidth="245.0" text=" Resultado:" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="l_addPer" layoutX="45.0" layoutY="143.0" prefHeight="27.0" prefWidth="134.0" text="Agregar Persona">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="l_div1" layoutX="38.0" layoutY="167.0" prefHeight="17.0" prefWidth="149.0" text="------------------------------" />
+      <Label id="l_op" layoutX="299.0" layoutY="143.0" text="Operaciones">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="l_div2" layoutX="292.0" layoutY="167.0" prefHeight="17.0" prefWidth="118.0" text="-----------------------" />
+      <Label id="l_name" layoutX="24.0" layoutY="205.0" prefHeight="27.0" prefWidth="76.0" text="Nombre:" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="l_prov" layoutX="22.0" layoutY="272.0" prefHeight="27.0" prefWidth="76.0" text="Provincia:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="tf_name" fx:id="tf_name" layoutX="105.0" layoutY="206.0" prefHeight="25.0" prefWidth="109.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Label id="l_old" layoutX="35.0" layoutY="332.0" prefHeight="27.0" prefWidth="51.0" text="Edad:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="tf_old" fx:id="tf_old" layoutX="105.0" layoutY="333.0" prefHeight="25.0" prefWidth="109.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Label id="l_fail" fx:id="l_fail" contentDisplay="CENTER" layoutX="25.0" layoutY="49.0" prefHeight="84.0" prefWidth="410.0" textAlignment="CENTER" textFill="#b90505" visible="false">
+         <font>
+            <Font name="Modern No. 20" size="16.0" />
+         </font>
+      </Label>
+      <Label id="l_per1" layoutX="310.0" layoutY="205.0" text="Persona 1:" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="l_per2" layoutX="310.0" layoutY="272.0" text="Persona 2:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button id="btm_add" layoutX="265.0" layoutY="379.0" mnemonicParsing="false" onAction="#add" prefHeight="35.0" prefWidth="38.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="btm_sub" layoutX="313.0" layoutY="379.0" mnemonicParsing="false" onAction="#sub" prefHeight="39.0" prefWidth="38.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="btm_mul" layoutX="361.0" layoutY="379.0" mnemonicParsing="false" onAction="#mult" text="*" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="btm_div" layoutX="403.0" layoutY="379.0" mnemonicParsing="false" onAction="#div" prefHeight="39.0" prefWidth="38.0" text="/">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ComboBox id="cmbx_prov" fx:id="cmbx_prov" layoutX="105.0" layoutY="273.0" prefHeight="25.0" prefWidth="109.0" />
+      <ComboBox id="cmbx_per1" fx:id="cmbx_per1" layoutX="299.0" layoutY="240.0" prefHeight="25.0" prefWidth="109.0" />
+      <ComboBox id="cmbx_per2" fx:id="cmbx_per2" layoutX="299.0" layoutY="308.0" prefHeight="25.0" prefWidth="109.0" />
+   </children>
+</AnchorPane>
